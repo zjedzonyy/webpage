@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+div{
+    width: 100%;
+}
+.container{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.header {
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #1F2937;
+}
+.left h1,
+.leftheading p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.footer,
+.left p,
+button,
+.rightheading p,
+.leftlower p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.footer{
+    height: 50px;
+    flex-basis: 50px;
+    max-height: 50px;
+    flex: auto;
+    background-color: blue;
+}
+
+.heading {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0; 
+}
+
+.rightheading{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rightheading ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftheading{
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lowerheading{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftlower,
+.rightlower{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.rightlower{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+button{
+    width: 100px;
+    padding: 3px;
+    background-color: #3882F6;
+    border: 0;
+}
+
+.leftlower h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.rightlower img{
+    width: 300px;
+    height: 200px;
+   
+}
+
+.center{
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: auto;
+}
+.gallery h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.center img{
+    width: 150px;
+    height: 150px;
+}
+.gallery{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 150px
+}
+
+.object p{
+    max-width: 150px;
+    text-align: center;
+}
+
+.object{
+    max-width: 150px;
+}
+.quote{
+    max-height: 500px;
+    background-color: #E5E7EB; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+.author,
+.quotetext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.quotetext p{
+    max-width: 700px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.author p{
+    width: 700px;
+    text-align: end;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;
+    flex-grow: 1;
+}
+
+.box {
+    max-width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left,
+.right{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right button{
+    border: white;
+    border: 2px;
+}
+
+.footer{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: beige;
+    background-color: #1F2937;
+    
+}
